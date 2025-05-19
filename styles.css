@@ -22,6 +22,8 @@ body {
     background-image: url("img/background.png");
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
+    text-align: center;
 }
 
 .container {
@@ -55,6 +57,59 @@ body {
     font-size: 28px;
     font-weight: 700;
 }
-.container__imagem{
+
+.container__imagem {
     margin: 1em 0 2em 0;
+}
+
+.container__caixa {
+    margin: 0 6em;
+}
+
+.secundario__imagem {
+    width: 80%;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+
+.descricao__texto {
+    color: var(--cinza-secundario);
+}
+
+.secundario__botao {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container__descricao {
+    padding: 2em;
+}
+
+.dispositivos__lista {
+    justify-content: center;
+    display: flex;
+    list-style-type: none;
+    margin: 5em 0;    
+}
+
+.dispositivos {
+    text-align: center;
+
+}
+.dispositivos__titulo{
+    font-size: 48px;
+}
+.dispositivos__item{
+    font-size: 32px;
+    color: var(--branco-principal);
 }
